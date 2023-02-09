@@ -14,15 +14,234 @@
 }
 
 .title{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-content: center;
-padding: 5px;
+padding: 10px;
+padding-right: 10px;
 border:#DADBFC 5px solid;
 border-radius: 25px;
 background-color: #DADBFC;
-width: 250px;
-white-space: nowrap;
+font-size: 30px;
+width: 375px;
     
+}
+
+.sectionHead{
+    margin: 150px 0px 50px 40px;
+}
+
+.badge{
+    background-color: #2c32f8;
+}
+.overview{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardPersona{
+    margin-left: 100px;
+    padding: 20px;
+}
+.personaImage{
+    width: 300px;
+}
+
+.card-bodyPersona{
+    margin-left: 200px;
+}
+
+.personaCard-title{
+    color: #2c32f8;
+}
+
+.card-bodyInterviewPlan{
+    margin-left: 120px;
+}
+.objective{
+    color: #2c32f8;
+}
+.interviewPlan{
+    color: #2c32f8;
+}
+
+.quotes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "userQuotes UserQuotes"
+    "appFeel appDoes";
+
+
+}
+
+.userQuotes{
+    grid-area: userQuotes;
+    margin-bottom: 75px;
+}
+.appFeel{
+    grid-area: appFeel;
+}
+
+.appDoes{
+    grid-area: appDoes;
+}
+
+.userQuotes{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "uQH uQH"
+    "qB1 qB2"
+    "qB3 qB4"
+    "qB5 qB6";
+}
+
+.uQH{
+    grid-area: uQH;
+   }
+
+.qB1{
+    grid-area: qB1;
+}
+.qB2{
+    grid-area: qB2;
+    margin-left: 30px;
+}
+.qB3{
+    grid-area: qB3;
+}
+.qB4{
+    grid-area: qB4;
+    margin-left: 30px;
+}
+.qB5{
+    grid-area: qB5;
+    
+}
+.qB6{
+    grid-area: qB6;
+    margin-left: 30px;
+    
+}
+
+.quoteBody{
+    background-color: #DADBFC;
+    padding: 20px;
+    width: 370px;
+    border-radius: 25px;
+}
+
+.quoteHeader{
+    margin-top: 100px;
+}
+
+
+.oFBody{
+    margin-bottom: 100px;
+}
+.notesContent{
+    display:flex;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.taylorNote{
+    align-self: flex-start;
+    margin: 0px 50px 0px 50px;
+}
+
+.catContent{display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "timeline research"
+        "planning painpoints";
+    margin-top: 50px;
+
+}
+
+.timeline{
+    grid-area: timeline;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.research{
+    grid-area: research;
+    margin-bottom: 50px;
+}
+.planning{
+    grid-area: planning;
+    margin-right: 50px;
+}
+.painpoints{
+    grid-area: painpoints;
+}
+
+.empathy{
+    margin-bottom: 100px;
+}
+
+.feature{
+    margin-bottom: 100px;
+}
+
+.proto{
+    margin-bottom: 100px;
+}
+
+.scenario{
+    margin-top: 100px;
+    grid-area: scenario;
+}
+
+.protoScenarios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "scenario scenarioImg"
+        "scenBody scenarioImg";
+}
+
+.scenBody{
+    grid-area: scenBody;
+}
+
+.scenarioImg{
+    grid-area: scenarioImg;
+}
+
+.scenario2{
+    margin-top: 100px;
+    grid-area: scenario2;
+}
+
+.protoScenarios2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+        "scenarioImg2 scenario2"
+        "scenarioImg2 scenBody2";
+}
+
+.scenBody2{
+    grid-area: scenBody2;
+}
+
+.scenarioImg2{
+    grid-area: scenarioImg2;
+}
+
+.takeaways{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.learned{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.takeawayHead{
+    margin-bottom: 20px;
 }
